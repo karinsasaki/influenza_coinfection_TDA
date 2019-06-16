@@ -5,7 +5,7 @@ In this GitHub page we provide the code that we used in our topological data ana
 
 ## Files explained
 
-### coinfections.csv
+### coinfections.csv file
 This is the data set we analyse in this study. This data set was originally published in Duvigneau et al. (2016). In this paper  the authors investigated the hierarchical effects of pro-inflammatory cytokines on the post-influenza susceptibility to pneumococcal co-infection by assessing the early and late kinetics of pro-inflammatory cytokines in the respiratory tract. In the experimental part of this study the mice were divided into three groups and given either a single viral infection (with IAV strain 84 A/PR8/34), a single bacterial infection (S. pneumoniae strain T4) or a co-infection (IAV + T4). The experimental read outs were the bacterial burden, viral titers and cytokine protein concentrations in the lung. They used mathematical modelling that sugested a detrimental role of IFN-gamma alone and in synenergism with IL-6 and TFN-alpha in impaired bacterial clearance. We use the Mapper Algorithm to investigate the global shape of the immune system under the three infection scenarios and we generate a new hypotheses where the immune system goes through three stages and two transition points in its response to co-infection. 
 
 ### The functions.py file

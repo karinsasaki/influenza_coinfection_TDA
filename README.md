@@ -47,6 +47,6 @@ Open a Jupyter notebook and import either the parameter_value_grid_search_exampl
 
 
 
-# 3. References
+## 3. References
 
 Duvigneau S, Sharma-Chawla N, Boianelli A, Stegemann-Koniszewski S, Nguyen VK, Bruder D, Hernandez-Vargas EA. Hierarchical effects of pro-inflammatory cytokines on the post-influenza susceptibility to pneumococcal coinfection. Scientific Reports. 2016 Nov; 6:37045 EP –. https://doi.org/10.1038/srep37045, article.

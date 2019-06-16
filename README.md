@@ -1,5 +1,4 @@
-# Topological data analysis of three-stage immune response to
-3 influenza-pneumococcal lung infection
+# Topological data analysis of three-stage immune response to influenza-pneumococcal lung infection
 
 In this GitHub page we provide the code that we used in our topological data analysis of co-infection (data) between influenza and bacteria in the lung.
 

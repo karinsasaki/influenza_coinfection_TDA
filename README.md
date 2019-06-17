@@ -1,12 +1,12 @@
 # Topological data analysis of three-stage immune response to influenza-pneumococcal lung infection
 
-In this GitHub page we provide the code that we used in our topological data analysis of co-infection (data) between influenza and bacteria in the lung.
+In this GitHub page we provide the code that we used in our topological data analysis of co-infection (data) between influenza and bacteria in the lung. We use the [Kepler Mapper Python library](https://kepler-mapper.scikit-tda.org) [van Veen et al. (2017)].
 
 
 ## 1. Files explained
 
 ### 1.1. The coinfections.csv file
-This is the data set we analyse in this study. This data set was originally published in Duvigneau et al. (2016). In this paper  the authors investigated the hierarchical effects of pro-inflammatory cytokines on the post-influenza susceptibility to pneumococcal co-infection by assessing the early and late kinetics of pro-inflammatory cytokines in the respiratory tract. In the experimental part of this study the mice were divided into three groups and given either a single viral infection (with IAV strain 84 A/PR8/34), a single bacterial infection (S. pneumoniae strain T4) or a co-infection (IAV + T4). The experimental read outs were the bacterial burden, viral titers and cytokine protein concentrations in the lung. They used mathematical modelling that sugested a detrimental role of IFN-gamma alone and in synenergism with IL-6 and TFN-alpha in impaired bacterial clearance. We use the Mapper Algorithm to investigate the global shape of the immune system under the three infection scenarios and we generate a new hypotheses where the immune system goes through three stages and two transition points in its response to co-infection. 
+This is the data set we analyse in this study. This data set was originally published in [Duvigneau et al. (2016)]. In this paper  the authors investigated the hierarchical effects of pro-inflammatory cytokines on the post-influenza susceptibility to pneumococcal co-infection by assessing the early and late kinetics of pro-inflammatory cytokines in the respiratory tract. In the experimental part of this study the mice were divided into three groups and given either a single viral infection (with IAV strain 84 A/PR8/34), a single bacterial infection (S. pneumoniae strain T4) or a co-infection (IAV + T4). The experimental read outs were the bacterial burden, viral titers and cytokine protein concentrations in the lung. They used mathematical modelling that sugested a detrimental role of IFN-gamma alone and in synenergism with IL-6 and TFN-alpha in impaired bacterial clearance. We use the Mapper Algorithm to investigate the global shape of the immune system under the three infection scenarios and we generate a new hypotheses where the immune system goes through three stages and two transition points in its response to co-infection. 
 
 ### 1.2. The functions.py file
 This Python script contains all the functions we use for the semi-unsupervised algorithm and for generating the images shown in the paper.
@@ -49,4 +49,6 @@ Open a Jupyter notebook and import either the parameter_value_grid_search_exampl
 
 ## 3. References
 
-Duvigneau S, Sharma-Chawla N, Boianelli A, Stegemann-Koniszewski S, Nguyen VK, Bruder D, Hernandez-Vargas EA. Hierarchical effects of pro-inflammatory cytokines on the post-influenza susceptibility to pneumococcal coinfection. Scientific Reports. 2016 Nov; 6:37045 EP –. https://doi.org/10.1038/srep37045, article.
+1. Duvigneau S, Sharma-Chawla N, Boianelli A, Stegemann-Koniszewski S, Nguyen VK, Bruder D, Hernandez-Vargas EA. Hierarchical effects of pro-inflammatory cytokines on the post-influenza susceptibility to pneumococcal coinfection. Scientific Reports. 2016 Nov; 6:37045 EP –. https://doi.org/10.1038/srep37045, article.
+
+2. Hendrik Jacob van Veen, and Nathaniel Saul. (2017, November 17). MLWave/kepler-mapper: 186f (Version 1.0.1). Zenodo. http://doi.org/10.5281/zenodo.1054444

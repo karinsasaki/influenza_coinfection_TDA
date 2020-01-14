@@ -51,6 +51,6 @@ Open a Jupyter notebook and import either the parameter_value_grid_search_exampl
 
 1. Duvigneau S, Sharma-Chawla N, Boianelli A, Stegemann-Koniszewski S, Nguyen VK, Bruder D, Hernandez-Vargas EA. Hierarchical effects of pro-inflammatory cytokines on the post-influenza susceptibility to pneumococcal coinfection. Scientific Reports. 2016 Nov; 6:37045 EP, https://doi.org/10.1038/srep37045.
 
-2. Sasaki K., Bruder D., Hernandez-Vargas E. Topological data analysis to uncover the shape of immune responses during co-infection. BioRxive (2019) doi: https://doi.org/10.1101/723957
+2. Sasaki K, Bruder D, Hernandez-Vargas E. Topological data analysis to uncover the shape of immune responses during co-infection. BioRxive (2019) doi: https://doi.org/10.1101/723957
 
-3. Hendrik Jacob van Veen, and Nathaniel Saul. (2017, November 17). MLWave/kepler-mapper: 186f (Version 1.0.1). Zenodo. http://doi.org/10.5281/zenodo.1054444
+3. van Veen H. J., and Saul N. (2017, November 17). MLWave/kepler-mapper: 186f (Version 1.0.1). Zenodo. http://doi.org/10.5281/zenodo.1054444

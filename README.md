@@ -1,6 +1,6 @@
 # Topological data analysis of three-stage immune response to influenza-pneumococcal lung infection
 
-In this GitHub page we provide the code that we used in our topological data analysis of co-infection (data) between influenza and bacteria in the lung. We use the [Kepler Mapper Python library](https://kepler-mapper.scikit-tda.org) [van Veen et al. (2017)].
+In this GitHub page we provide the code that we used in our topological data analysis of co-infection data [1] between influenza and bacteria in the lung. This work goes together with [2]. We use the [Kepler Mapper Python library](https://kepler-mapper.scikit-tda.org) [3].
 
 
 ## 1. Files explained
@@ -49,6 +49,8 @@ Open a Jupyter notebook and import either the parameter_value_grid_search_exampl
 
 ## 3. References
 
-1. Duvigneau S, Sharma-Chawla N, Boianelli A, Stegemann-Koniszewski S, Nguyen VK, Bruder D, Hernandez-Vargas EA. Hierarchical effects of pro-inflammatory cytokines on the post-influenza susceptibility to pneumococcal coinfection. Scientific Reports. 2016 Nov; 6:37045 EP –. https://doi.org/10.1038/srep37045, article.
+1. Duvigneau S, Sharma-Chawla N, Boianelli A, Stegemann-Koniszewski S, Nguyen VK, Bruder D, Hernandez-Vargas EA. Hierarchical effects of pro-inflammatory cytokines on the post-influenza susceptibility to pneumococcal coinfection. Scientific Reports. 2016 Nov; 6:37045 EP, https://doi.org/10.1038/srep37045.
 
-2. Hendrik Jacob van Veen, and Nathaniel Saul. (2017, November 17). MLWave/kepler-mapper: 186f (Version 1.0.1). Zenodo. http://doi.org/10.5281/zenodo.1054444
+2. Sasaki K, Bruder D, Hernandez-Vargas E. Topological data analysis to uncover the shape of immune responses during co-infection. BioRxive (2019) doi: https://doi.org/10.1101/723957
+
+3. van Veen H. J., and Saul N. (2017, November 17). MLWave/kepler-mapper: 186f (Version 1.0.1). Zenodo. http://doi.org/10.5281/zenodo.1054444
